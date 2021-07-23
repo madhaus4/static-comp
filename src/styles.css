@@ -148,7 +148,11 @@ article {
 
 	.card-container {
 		height: 100%;
+<<<<<<< HEAD
 		margin: 0px 40px 20px 20px;
+=======
+		margin: 0px 30px 20px 20px;
+>>>>>>> main
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: repeat(3, 1fr);
 		overflow-x: hidden;
