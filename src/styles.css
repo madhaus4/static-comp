@@ -19,13 +19,14 @@ body {
 }
 
 body {
-	background-color: #f9f6f4;
+	/* background-color: #f9f6f4; */
+	background-image: url('https://images.unsplash.com/photo-1484069560501-87d72b0c3669?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80');
 }
 
 /* ---> TOP NAV CONTAINER */
 nav {
 	height: 10vh;
-	background-color: #818181;
+	background-color: #e1e1e1;
 	display: flex;
 	justify-content: space-between;
 }
@@ -113,11 +114,48 @@ article {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .card-1 {
-	background-image: url('https://images.unsplash.com/photo-1623944178666-74829fa4b1e8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=716&q=80');
-	background-size: contain;
+	/* background-image: url('https://images.unsplash.com/photo-1612042256479-f92ad547260b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80'); */
+	background-image: url('https://images.unsplash.com/photo-1574955699782-2835adb8f480?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80');
+}
+
+.card-2 {
+	/* background-image: url('https://images.unsplash.com/photo-1615287357261-e7860b422c02?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80'); */
+	background-image: url('https://images.unsplash.com/photo-1608434934019-f8dd8d7e8cae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+}
+
+.card-3 {
+	/* background-image: url('https://images.unsplash.com/photo-1572968317243-45d955175728?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80'); */
+	background-image: url('https://images.unsplash.com/photo-1543273135-383c35ea7765?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80');
+}
+
+.card-4 {
+	/* background-image: url('https://images.unsplash.com/photo-1600576761664-712e35029286?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'); */
+	background-image: url('https://images.unsplash.com/photo-1612413621534-5bfd1d5bb13e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80');
+}
+
+.card-5 {
+	/* background-image: url('https://images.unsplash.com/photo-1566412920045-18159755f5f2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80'); */
+	background-image: url('https://images.unsplash.com/photo-1591163088186-367c5daff7b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80');
+}
+
+.card-6 {
+	/* background-image: url('https://images.unsplash.com/photo-1567893714774-058bddbf0439?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80'); */
+	background-image: url('https://images.unsplash.com/photo-1544546615-d78ad6ce42ff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+}
+
+.card-7 {
+	/* background-image: url('https://images.unsplash.com/photo-1622023764665-5c183e5da8cf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80'); */
+	background-image: url('https://images.unsplash.com/photo-1569533816166-49d08c516a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80');
+}
+
+.card-8 {
+	/* background-image: url('https://images.unsplash.com/photo-1620381443330-f8eba603c120?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=776&q=80'); */
+	background-image: url('https://images.unsplash.com/photo-1580195319388-1bea55742a42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80');
 }
 
 .card-top-section {
@@ -132,12 +170,16 @@ article {
 	height: 50%;
 	width: 85%;
 	margin-bottom: 20px;
-	background-color: #f8f8f8;
+	/* background-color: #f8f8f8; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	opacity: 70%;
+	/* opacity: 25%; */
 }
+
+/* .card-info-section:hover {
+	opacity: 75%;
+} */
 
 .url {
 	width: 80%;
@@ -147,7 +189,7 @@ article {
 
 footer {
 	height: 10vh;
-	background-color: #818181;
+	background-color: #e1e1e1;
 }
 
 /* TO LAPTOP SIZE */
