@@ -88,6 +88,34 @@ article {
 	/* border: 1px solid black; */
 	box-shadow: 0 0px 10px -2px rgba(0, 0, 0, 0.22);
 }
+.card-1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.card-top-section {
+	width: 80%;
+	height: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.card-info-section {
+	height: 50%;
+	width: 85%;
+	margin-bottom: 20px;
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.url {
+	width: 80%;
+	background-color: #dddddd;
+	align-self: center;
+}
 
 /* TO LAPTOP SIZE */
 @media screen and (min-width: 450px) {
@@ -156,6 +184,8 @@ article {
 	}
 
 	/* ---> CARDS */
-	article {
+	.card-1 {
+	}
+	.card-info-section {
 	}
 }
