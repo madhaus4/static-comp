@@ -160,6 +160,19 @@ article {
 	justify-content: space-between;
 }
 
+.favorite-icon {
+	background: #f8f8f8;
+	height: 6vh;
+	width: 13vw;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.visits {
+}
+
 .card-info-section {
 	height: 50%;
 	width: 85%;
