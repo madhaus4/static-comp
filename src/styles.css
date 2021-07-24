@@ -77,6 +77,20 @@ h2 {
 	grid-template-columns: repeat(8, 80vw);
 	grid-template-rows: repeat(1, 1fr);
 	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.card-container::-webkit-scrollbar {
+	width: 20px;
+	height: 20px;
+}
+
+.card-container::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0px 0px 12px 2px rgb(0 0 0 / 30%);
+}
+.card-container::-webkit-scrollbar-thumb {
+	background-color: black;
+	outline: 1px solid slategrey;
 }
 
 /* ---> CARDS */
@@ -89,6 +103,8 @@ article {
 	box-shadow: 0 0px 10px -2px rgba(0, 0, 0, 0.22);
 }
 .card-1 {
+	background-image: url('https://images.unsplash.com/photo-1558541014-5f289351cbf3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80');
+	background-size: contain;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -109,6 +125,7 @@ article {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
+	opacity: 70%;
 }
 
 .url {
