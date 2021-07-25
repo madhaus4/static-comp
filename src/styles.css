@@ -46,7 +46,7 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .username-container {
@@ -249,31 +249,33 @@ footer {
 	/* ---> TOP NAV CONTAINER */
 	nav {
 		height: 20vh;
-		/* width: 100vw; */
-		/* position: fixed; */
+	}
+
+	.icon {
+		height: 20px;
+		width: 20px;
 	}
 
 	.nav-container-1 {
 		width: 40vw;
-		padding: 40px 10px;
+		padding: 25px;
 		justify-content: space-around;
 	}
 
 	.ref-container {
-		width: 25%;
+		width: 30%;
 		display: flex;
 		align-items: center;
-		justify-content: space-evenly;
 	}
 
 	h3 {
 		display: inline;
+		padding-left: 10px;
 	}
 
 	.nav-container-2 {
 		width: 40vw;
 		padding-right: 25px;
-		justify-content: space-around;
 	}
 
 	.username-container {
