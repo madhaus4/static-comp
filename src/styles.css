@@ -46,7 +46,7 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .username-container {
@@ -60,6 +60,7 @@ h3 {
 	align-items: center;
 	justify-content: center;
 }
+
 .business-container > img {
 	height: 30px;
 	width: 30px;
@@ -155,9 +156,35 @@ article {
 .card-top-section {
 	width: 80%;
 	height: 15%;
+	margin-top: 15px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.favorite-icon {
+	background: #f8f8f8;
+	height: 6vh;
+	width: 13vw;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* .favorite-icon > img:hover {
+	background-image: url('../assets/red-favorite.png');
+} */
+
+.visits {
+	color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h5 {
+	font-size: 2em;
 }
 
 .card-info-section {
@@ -170,9 +197,12 @@ article {
 }
 
 .url {
-	width: 80%;
-	background-color: #dddddd;
+	width: 90%;
+	background-color: #e8e8e8;
 	align-self: center;
+	word-wrap: break-word;
+	font-size: 1em;
+	padding: 5px 15px;
 }
 
 footer {
@@ -183,8 +213,33 @@ footer {
 	justify-content: center;
 }
 
-/* TO LAPTOP SIZE */
+/* TO TABLET SIZE  */
 @media screen and (min-width: 450px) {
+	body {
+		background-size: cover;
+		background-position: center;
+	}
+	main {
+		height: 100vh;
+	}
+	.card-container {
+		height: 100%;
+		margin: 0px 20px;
+		grid-template-columns: repeat(1, 90%);
+		grid-template-rows: repeat(8);
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+	.card-info-section {
+		height: 45%;
+	}
+	footer {
+		display: none;
+	}
+}
+
+/* TO LAPTOP SIZE */
+@media screen and (min-width: 770px) {
 	html,
 	body {
 		height: 100vh;
@@ -193,32 +248,34 @@ footer {
 
 	/* ---> TOP NAV CONTAINER */
 	nav {
-		height: 23vh;
-		/* width: 100vw; */
-		/* position: fixed; */
+		height: 20vh;
+	}
+
+	.icon {
+		height: 20px;
+		width: 20px;
 	}
 
 	.nav-container-1 {
-		width: 35vw;
-		padding: 40px 10px;
+		width: 40vw;
+		padding: 25px;
 		justify-content: space-around;
 	}
 
 	.ref-container {
-		width: 25%;
+		width: 30%;
 		display: flex;
 		align-items: center;
-		justify-content: space-evenly;
 	}
 
 	h3 {
 		display: inline;
+		padding-left: 10px;
 	}
 
 	.nav-container-2 {
 		width: 40vw;
 		padding-right: 25px;
-		justify-content: space-around;
 	}
 
 	.username-container {
@@ -235,7 +292,6 @@ footer {
 		height: auto;
 		width: 97.5vw;
 		border: none;
-		/* margin-top: 25vh; */
 	}
 
 	h2 {
@@ -248,7 +304,7 @@ footer {
 	.card-container {
 		height: 100%;
 		margin: 0px 20px;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(4, 25%);
 		grid-template-rows: repeat(3, 1fr);
 		overflow-x: hidden;
 		overflow-y: hidden;
@@ -258,9 +314,24 @@ footer {
 	article {
 		margin: 5px;
 	}
-	.card-1 {
+
+	.favorite-icon {
+		width: 5vw;
+		height: 8.5vh;
 	}
+
 	.card-info-section {
+		height: 55%;
+		margin-bottom: 5px;
+	}
+
+	.visits > p,
+	.card-info-section > div > p {
+		font-size: 0.75em;
+	}
+
+	h5 {
+		font-size: 1.5em;
 	}
 
 	footer {
