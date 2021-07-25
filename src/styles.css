@@ -202,6 +202,7 @@ h5 {
 	align-self: center;
 	word-wrap: break-word;
 	font-size: 1em;
+	padding: 5px 15px;
 }
 
 footer {
@@ -214,6 +215,27 @@ footer {
 
 /* TO TABLET SIZE  */
 @media screen and (min-width: 450px) {
+	body {
+		background-size: cover;
+		background-position: center;
+	}
+	main {
+		height: 100vh;
+	}
+	.card-container {
+		height: 100%;
+		margin: 0px 20px;
+		grid-template-columns: repeat(1, 90%);
+		grid-template-rows: repeat(8);
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+	.card-info-section {
+		height: 45%;
+	}
+	footer {
+		display: none;
+	}
 }
 
 /* TO LAPTOP SIZE */
@@ -268,7 +290,6 @@ footer {
 		height: auto;
 		width: 97.5vw;
 		border: none;
-		/* margin-top: 25vh; */
 	}
 
 	h2 {
@@ -294,12 +315,21 @@ footer {
 
 	.favorite-icon {
 		width: 5vw;
-		height: 8vh;
-		align-items: inherit;
+		height: 8.5vh;
 	}
 
-	.url {
+	.card-info-section {
+		height: 55%;
+		margin-bottom: 5px;
+	}
+
+	.visits > p,
+	.card-info-section > div > p {
 		font-size: 0.75em;
+	}
+
+	h5 {
+		font-size: 1.5em;
 	}
 
 	footer {
