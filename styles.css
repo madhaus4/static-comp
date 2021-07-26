@@ -217,8 +217,8 @@ article {
 
 .favorite-icon {
 	background: #f8f8f8;
-	height: 6vh;
-	width: 13vw;
+	height: 50px;
+	width: 50px;
 	border-radius: 50px;
 	display: flex;
 	align-items: center;
@@ -291,8 +291,51 @@ footer > p {
 	}
 }
 
+/* TO TABLET SIZE */
+@media screen and (min-width: 480px) {
+	.card-info-section {
+		height: 30%;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-end;
+		justify-content: flex-start;
+	}
+
+	.url {
+		align-self: auto;
+	}
+
+	.artists {
+		padding-left: 50px;
+	}
+}
+
+/* TO BIGGER TABLET SIZE */
+@media screen and (min-width: 650px) {
+	.card-container {
+		grid-template-columns: repeat(2, 45%);
+		grid-template-rows: repeat(5, 1fr);
+	}
+	.card-info-section {
+		height: 50%;
+	}
+}
+
+/* TO SMALL LAPTOP SIZE */
+@media screen and (min-width: 785px) {
+	.card-container {
+		grid-template-columns: repeat(3, 33%);
+		grid-template-rows: repeat(4, 1fr);
+	}
+
+	.card-info-section {
+		height: 50%;
+		padding: 20px;
+	}
+}
+
 /* TO LAPTOP SIZE */
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 1050px) {
 	html,
 	body {
 		height: 100vh;
@@ -368,19 +411,18 @@ footer > p {
 		margin: 5px;
 	}
 
-	.favorite-icon {
-		width: 5vw;
-		height: 8.5vh;
-	}
-
 	.favorite {
 		height: 25px;
 		width: 25px;
 	}
 
 	.card-info-section {
+		font-size: larger;
 		height: 55%;
 		margin-bottom: 5px;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-evenly;
 	}
 
 	.visits > p,
@@ -388,6 +430,9 @@ footer > p {
 		font-size: 0.75em;
 	}
 
+	.artists {
+		padding: 0px;
+	}
 	h5 {
 		font-size: 1.5em;
 	}
