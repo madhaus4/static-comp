@@ -20,8 +20,8 @@ The objective of the static comp challenge is to practice my skills with recreat
 
 #### Videos
 ###### - Laptop Preview
-https://user-images.githubusercontent.com/76507607/126917234-85f4dbd2-3dca-485b-8898-c4cb0035e0a5.mov
+https://user-images.githubusercontent.com/76507607/126918061-f8628363-9f60-40f7-b088-2cb6e42aa1b3.mp4
 
 ###### - Mobile Preview
-https://user-images.githubusercontent.com/76507607/126917236-3b4c5f7f-076f-4333-9f19-388b0090dc77.mov
+https://user-images.githubusercontent.com/76507607/126918058-04d759c9-61ac-480c-902f-eee821653bc1.mp4
 
