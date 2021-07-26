@@ -10,7 +10,7 @@
  * animation text-focus-in
  * ----------------------------------------
  */
-@-webkit-keyframes text-focus-in {
+@-webkit-keyframes text-focus-inls {
 	0% {
 		-webkit-filter: blur(12px);
 		filter: blur(12px);
