@@ -217,8 +217,8 @@ article {
 
 .favorite-icon {
 	background: #f8f8f8;
-	height: 6vh;
-	width: 13vw;
+	height: 50px;
+	width: 50px;
 	border-radius: 50px;
 	display: flex;
 	align-items: center;
@@ -366,11 +366,6 @@ footer > p {
 	/* ---> CARDS */
 	article {
 		margin: 5px;
-	}
-
-	.favorite-icon {
-		width: 5vw;
-		height: 8.5vh;
 	}
 
 	.favorite {
